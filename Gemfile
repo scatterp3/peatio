@@ -109,7 +109,7 @@ group :test do
   gem 'test-unit'
 end
 
-gem :production do
+group :production do
   gem 'fix_engine'
   gem 'quickfix_jruby'
 end
