@@ -110,6 +110,5 @@ group :test do
 end
 
 group :production do
-  gem 'fix_engine'
-  gem 'quickfix_jruby'
+  gem 'agent_fix'
 end
